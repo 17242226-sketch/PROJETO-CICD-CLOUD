@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Exemplo - CI/CD DevOps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Loja DevOps ADS</h1>
+        <p>Projeto Prático de Integração Contínua e Deploy em Nuvem</p>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Catálogo de Produtos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>Camiseta DevOps</h3>
+                    <p>R$ 49,90</p>
+                    <button onclick="adicionarAoCarrinho('Camiseta DevOps', 49.90)">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product-card">
+                    <h3>Caneca Docker</h3>
+                    <p>R$ 29,90</p>
+                    <button onclick="adicionarAoCarrinho('Caneca Docker', 29.90)">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Carrinho de Compras</h2>
+            <ul id="cart-items">
+                <li id="empty-cart">Seu carrinho está vazio.</li>
+            </ul>
+            <p class="total">Total: R$ <span id="cart-total">0.00</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Equipe DevOps - Análise e Desenvolvimento de Sistemas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
