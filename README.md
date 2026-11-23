@@ -10,4 +10,4 @@ Aplicação web desenvolvida para a atividade prática de DevOps, contendo catá
 ## Como executar localmente
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/nome-do-repositorio.git
+   git clone https://github.com/17242226-sketch/PROJETO-CICD-CLOUD.git
